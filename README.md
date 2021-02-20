@@ -28,7 +28,7 @@ e.g.
 
 ### FAQ
 
-##### Q: Don't work/Don't show result
+#### Q: Don't work/Don't show result
 A: You may update Workflow Configuration(Environment Variables). Add Name/Value:
 
 |Name|Value|
@@ -37,3 +37,8 @@ A: You may update Workflow Configuration(Environment Variables). Add Name/Value:
 
 ![](images/authy_2.png)
 ![](images/authy_3.png)
+
+#### Q: InvalidMainpassword
+A: Run `authy delpwd && authy refresh` in Commandline
+
+
